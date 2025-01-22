@@ -27,7 +27,7 @@ const express = require('express');
         }
     });
 
-    const port = 80;
+    const port = 8080;
     app.listen(port, () => {
         console.log(`Access code service listening on port !` + port);
     });
