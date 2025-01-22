@@ -58,4 +58,4 @@ jobs:
           app-name: 'access-code-app-new-mw'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4F7E2A5E000A434786A6CE7C5711E92D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6C3E0A4CC5FF408DBA7E0E3E9C6D7D7C }}
