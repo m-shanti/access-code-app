@@ -3,3 +3,15 @@ Host: localhost
 Content-Type: application/x-www-form-urlencoded
 
 accessCode=88888
+
+###
+
+POST https://access-code-app-new-mw-fbbghrd2fbftb8c2.polandcentral-01.azurewebsites.net/validate-accesscode HTTP/1.1
+Host: access-code-app-new-mw-fbbghrd2fbftb8c2.polandcentral-01.azurewebsites.net
+Content-Type: application/x-www-form-urlencoded
+
+accessCode=88888
+
+###
+
+GET https://access-code-app-new-mw-fbbghrd2fbftb8c2.polandcentral-01.azurewebsites.net
